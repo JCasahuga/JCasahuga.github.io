@@ -22,6 +22,8 @@
 
 
 
+<link rel="stylesheet" href="/css/colortheme/colortheme.css"/>
+
 
 
 
@@ -33,7 +35,7 @@ Setting a very low sitemap priority will tell search engines this is not importa
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&ldquo;HTML&rdquo;, &ldquo;JSON&rdquo;] ```" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://jcasahuga.github.io/search/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://hugo-toha.github.io/search/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2010-06-08T08:06:25+06:00" />
 <meta property="article:modified_time" content="2010-06-08T08:06:25+06:00" />
 
@@ -78,7 +80,7 @@ Initial setup Search depends on additional output content type of JSON in config
       <span class="navbar-toggler-icon"></span>
     </button>
     <a class="navbar-brand" href="/">
-      My New Hugo Site</a>
+      JCasahuga</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -86,6 +88,27 @@ Initial setup Search depends on additional output content type of JSON in config
     <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
       <ul class="navbar-nav ml-auto">
       
+      
+        <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20>
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20>
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20>
+  </a>
+</div>
+</li>
       
       </ul>
     </div>
@@ -171,6 +194,10 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+  
+    
+  
+
 
 
   
@@ -212,12 +239,42 @@ Initial setup Search depends on additional output content type of JSON in config
         <div class="col-md-4 col-sm-12">
           <h5>Navigation</h5>
           
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://hugo-toha.github.io#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="https://hugo-toha.github.io#skills">Skills</a>
+                </li>
+              
+            
+              
+            
+          </ul>
+          
         </div>
         
         
         <div class="col-md-4 col-sm-12">
           <h5>Contact me:</h5>
           <ul>
+            
+              
+                <li><a href=mailto:joan.casahuga.altimiras@gmail.com target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>joan.casahuga.altimiras@gmail.com</span>
+                </a></li>
+              
             
           </ul>
         </div>
@@ -231,7 +288,7 @@ Initial setup Search depends on additional output content type of JSON in config
               <form method='post' action='https://blogtrottr.com'>
               <div class="form-group">
               <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='https://jcasahuga.github.io/index.xml' />
+              <input type='hidden' name='btr_url' value='https://hugo-toha.github.ioindex.xml' />
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
               <button type="submit" class="btn btn-info"> Submit </button>
@@ -279,11 +336,16 @@ Initial setup Search depends on additional output content type of JSON in config
 
 
 
+<script type="text/javascript" src="/js/darkreader.js"></script>
+<script type="text/javascript" src="/js/darkmode-darkreader.js"></script>
+
+
+
     
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
-<script src="https://jcasahuga.github.io/js/search.js"></script>
+<script src="https://hugo-toha.github.io/js/search.js"></script>
 
 
     
