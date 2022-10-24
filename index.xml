@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JCasahuga</title>
-    <link>https://hugo-toha.github.io/</link>
+    <link>https://jcasahuga.github.io/</link>
     <description>Recent content on JCasahuga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Oct 2022 14:35:44 +0200</lastBuildDate><atom:link href="https://hugo-toha.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Wed, 19 Oct 2022 14:35:44 +0200</lastBuildDate><atom:link href="https://jcasahuga.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>My First Post</title>
-      <link>https://hugo-toha.github.io/posts/my-first-post/</link>
+      <link>https://jcasahuga.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 19 Oct 2022 14:35:44 +0200</pubDate>
       
-      <guid>https://hugo-toha.github.io/posts/my-first-post/</guid>
+      <guid>https://jcasahuga.github.io/posts/my-first-post/</guid>
       <description></description>
     </item>
     
