@@ -44,3 +44,9 @@
 /* iPhone 5 or before */
 @media only screen and (max-width: 320px) {
 }
+
+/* Overrites */
+
+.background{
+    filter: blur(2px) !important;
+}
