@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unity on JCasahuga</title>
-    <link>https://jcasahuga.github.io/tags/unity/</link>
+    <link>https://jcasahuga.github.io/posts/unity/</link>
     <description>Recent content in Unity on JCasahuga</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Sep 2019 06:00:23 +0600</lastBuildDate><atom:link href="https://jcasahuga.github.io/tags/unity/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Mon, 30 Sep 2019 06:00:23 +0600</lastBuildDate><atom:link href="https://jcasahuga.github.io/posts/unity/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Transit Simulator</title>
       <link>https://jcasahuga.github.io/posts/unity/transit-simulator/</link>
       <pubDate>Mon, 30 Sep 2019 06:00:23 +0600</pubDate>
