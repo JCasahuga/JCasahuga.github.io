@@ -152,9 +152,10 @@ function toggleTOC() {
 function toggleCourseVisibility(elem) {
   // Google Analytics Test
   console.log("Analytics Started");
-  gtag("event", "login", {
-    method: "Google"
-  });
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+   'event': 'login',
+   });
   console.log("Analytics Finished");
 
   // find the courses
