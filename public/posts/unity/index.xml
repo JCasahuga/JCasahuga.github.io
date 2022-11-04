@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unity on JCasahuga</title>
+    <link>https://jcasahuga.github.io/posts/unity/</link>
+    <description>Recent content in Unity on JCasahuga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Sep 2019 06:00:23 +0600</lastBuildDate><atom:link href="https://jcasahuga.github.io/posts/unity/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Traffic Simulator</title>
+      <link>https://jcasahuga.github.io/posts/unity/traffic-simulator/</link>
+      <pubDate>Mon, 30 Sep 2019 06:00:23 +0600</pubDate>
+      
+      <guid>https://jcasahuga.github.io/posts/unity/traffic-simulator/</guid>
+      <description>The project This is a mobility research project, focusing on the development of a program that its able to create circuits of roads using straights, curves, roundabouts, intersections, traffic lights… and bthe ability to modify parameters like car flows, probability of exit in a roundabout, and traffic light timings, in order to find out the optimal combination to apply in the real case of traffic.
+The question that came up to my head when thinking what project to do was if the roads in our cities were the most efficient that could be and if the roads could be improved somehow.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

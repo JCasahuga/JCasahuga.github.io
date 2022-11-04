@@ -1,0 +1,129 @@
+section:
+  name: Education
+  id: education
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+degrees:
+- name: Bachelor Degree in Informatics Engineering specialization in Computer Science
+  icon: fa-brain
+  timeframe: Present - September 2020 
+  institution:
+    name: Universitat Politècnica de Catalunya - Facultat d'Informàtica de Barcelona
+    url: "https://www.fib.upc.edu/en"
+  grade:
+    scale: ECTS
+    achieved: 120
+    outOf: 240
+  takenCourses:
+    courses:
+      - name: ( Taking ) Programming Projects     
+      - name: ( Taking ) Algorithmics
+      - name: ( Taking ) Graphics            
+      - name: ( Taking ) Artificial Intelligence
+      - name: ( Taking ) Parallelism
+
+      - name: Computer Architecture
+      - name: Bussiness and Economics
+      - name: Interaction and Interface Design
+      - name: Introduction to Software Engineering
+      - name: Computer Networks
+      
+      - name: Databases
+      - name: Computer Interfacing
+      - name: Data Structures and Algorithms
+      - name: Probability and Statistics
+      - name: Operating Systems
+      
+      - name: Computer Structures
+      - name: Programming II
+      - name: Mathematics II
+      - name: Mathematics I
+
+      - name: Physics
+      - name: Fundamentals of Mathematics
+      - name: Programming I
+      - name: Introduction to Computers
+
+- name: Cambridge Assessment English Certificate
+  icon: fa-file-lines
+  timeframe: July 2021
+  institution:
+    name: C1 Exam
+    url: ""
+  grade:
+    scale: Mark
+    achieved: 191
+    outOf: 210
+
+- name: PAU
+  icon: fa-file-lines
+  timeframe: July 2020
+  institution:
+    name: University Access Tests
+    url: ""
+  grade:
+    scale: Mark
+    achieved: 11.85
+    outOf: 14
+
+- name: Baccalaureate
+  icon: fa-graduation-cap
+  timeframe: June 2020 - September 2018
+  institution:
+    name: IES Pius Font i Quer
+    url: "https://www.iespfq.cat/portal/"
+  grade:
+    scale: Mark
+    achieved: 8.25
+    outOf: 10
+  takenCourses:
+    courses:
+      - name: Mathematics
+      - name: Physics
+      - name: Technology
+      - name: History
+      - name: Technical Drawing
+      - name: Physical Education
+      - name: Catalan
+      - name: English
+      - name: Spanish
+      - name: Philosophy
+
+- name: First Certificate
+  icon: fa-file-lines
+  timeframe: July 2021
+  institution:
+    name: B2 Exam
+    url: ""
+  grade:
+    scale: Mark
+    achieved: 177
+    outOf: 190
+
+- name: ESO
+  icon: fa-graduation-cap
+  timeframe: June 2018 - September 2014
+  institution:
+    name: IES Pius Font i Quer
+    url: "https://www.iespfq.cat/portal/"
+  grade:
+    scale: Mark
+    achieved: 7.4
+    outOf: 10
+  takenCourses:
+    courses:
+      - name: Mathematics
+      - name: Technology
+      - name: Physics
+      - name: Biology
+      - name: Geography
+      - name: Chemistry
+      - name: History
+      - name: Music
+      - name: Physical Education
+      - name: Catalan
+      - name: English
+      - name: Spanish
+      - name: Philosophy

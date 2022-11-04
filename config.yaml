@@ -1,0 +1,54 @@
+baseURL: https://jcasahuga.github.io
+
+languageCode: en-us
+title: "JCasahuga"
+theme: "toha"
+
+# Manage languages
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+# Enable global emoji support
+enableEmoji: true
+
+# Site parameters
+params:
+  background: "images/default-background-dark.png"
+
+  # GitHub repo URL of your site
+  gitRepo: https://github.com/JCasahuga/JCasahuga.github.io
+
+  # specify whether you want to write some blog posts or not
+  enableBlogPost: true
+
+  # specify whether you want to show Tags
+  enableTags: true
+
+  # specify whether you want to show Table of Contents in reading page
+  enableTOC: true
+
+  # Provide newsletter configuration. This feature hasn't been implemented yet.
+  # Currently, you can just hide it from the footer.
+  newsletter:
+    enable: false
+
+  # Enables theme selector : < Dark / Light / System Default >
+  darkMode:
+    enable: true
+    provider: darkreader
+    default: system
+
+  # Enables Google Analytics
+  features:
+    analytics:
+      enabled: true
+      google:
+        id: G-J7SG56GXRM

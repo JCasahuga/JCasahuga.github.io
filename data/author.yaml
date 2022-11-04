@@ -1,0 +1,35 @@
+name: "Joan Casahuga Altimiras"
+nickname: "Joan Casahuga"
+greeting: "Hi, I am"
+
+image: "images/logo.png"
+
+contactInfo:
+
+  email: "joan.casahuga.altimiras@gmail.com"
+
+  github: "JCasahuga"
+
+  g-youtube:
+    icon: "fa-brands fa-youtube"
+    url: "https://www.youtube.com/channel/UCkWEbLpIqIDUw5ah5MpbKaQ"
+    text: "JCasahuga"
+
+  h-cgtrader:
+    icon : "fa-solid fa-g"
+    url: "https://www.cgtrader.com/"
+    text: "JCasahuga"
+
+  linkedin: "joan-casahuga-altimiras-88a114253"
+
+summary:
+  - I am a Student
+  - I am a Developer
+  - I am a Game Developer
+  - I am a VFX Generalist
+  - I am a 3D Generalist
+
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: ""

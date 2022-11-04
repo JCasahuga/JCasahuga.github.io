@@ -1,0 +1,41 @@
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+designation: Informatics Engineering Student
+
+company:
+  name: Universitat Politècnica de Catalunya
+  url: "https://www.fib.upc.edu/"
+  
+#resume: "files/resume.pdf"
+
+summary: "I am currently a 3rd-year student at Universitat Politèncnica de Catalunya, taking the Informatics Engineering Degree.\n\n
+          During my free time I like to develop and create through coding and design, over the past years, I embarked on a journey to get to learn the tools that today's technology gives us.
+          From coding algorithms, apps, websites to editing videos, producing 3D Models, making video games... passioned to combine all this learning path with real-world applications.\n\n
+          
+          
+          "
+
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "joan.casahuga.altimiras@gmail.com"
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/JCasahuga"
+- name: Youtube
+  icon: "fa-brands fa-youtube"
+  url: "https://www.youtube.com/channel/UCkWEbLpIqIDUw5ah5MpbKaQ"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/joan-casahuga-altimiras-88a114253/"
+- name: CGTrader
+  icon : "fab fa-g"
+  url: "https://www.cgtrader.com/JCasahuga"
+
+softSkills:
