@@ -151,12 +151,12 @@ function toggleTOC() {
 // Show more rows in the taken courses table
 function toggleCourseVisibility(elem) {
   // Google Analytics Test
-  console.log("Analytics Started");
+  /*console.log("Analytics Started");
   window.dataLayer = window.dataLayer || [];
   window.dataLayer.push({
    'event': 'login',
    });
-  console.log("Analytics Finished");
+  console.log("Analytics Finished");*/
 
   // find the courses
   let courses = elem.parentNode.getElementsByClassName("course");

@@ -272,7 +272,7 @@ if (!doNotTrack) {
         
         <div class="post-content" id="post-content">
           <h2 id="the-project">The project</h2>
-<p>This is a mobility research project, focusing on the development of a program that its able to create circuits of roads using straights, curves, roundabouts, intersections, traffic lights… and bthe ability to modify parameters like car flows, probability of exit in a roundabout, and traffic light timings, in order to find out the optimal combination to apply in the real case of traffic.</p>
+<p>This is a mobility research project, focusing on the development of a program that its able to create circuits of roads using straights, curves, roundabouts, intersections, traffic lights… and the ability to modify parameters like car flows, probability of exit in a roundabout, and traffic light timings, in order to find out the optimal combination to apply in the real case of traffic.</p>
 <p>The question that came up to my head when thinking what project to do was if the roads in our cities were the most efficient that could be and if the roads could be improved somehow.</p>
 <p>This program has been made using open source, Blender, which is a software used to create 3D models, Unity and C#, used to develop the logic and inner workings of the objects, in addition to using Visual Studio as the code editing program.</p>
 <p>The logic is divided is made up of three systems, the network of roads, the autonomous cars, and the simulation and extraction of results, as well as being able to save the project that could be convenient when working on big projects.</p>
@@ -280,7 +280,40 @@ if (!doNotTrack) {
 <p>Finally, the tool created can be used in different cities to find one possible solution to the traffic problem.</p>
 <p>Additionally, the knowledge acquired through all these years has been provided by the internet that has been fundamental to make this project.</p>
 <h2 id="how-it-works">How it works</h2>
-<h3 id="reference">Reference</h3>
+<p>The explanation of how it works is divided in the different parts and systems implemented on the program.</p>
+<h3 id="roads">Roads</h3>
+<p>The structure of the roads is mainly compound by: the road itself, walk sides/fences, path points and addition points.</p>
+<p>
+
+
+
+
+<video class="video-player" id="video-198" playsinline controls>
+  <source src="video1.mp4" type="video/mp4" />
+</video>
+ <!-- raw HTML omitted --></p>
+<h3 id="navigation">Navigation</h3>
+<p>From the path points and the road itself a navigation mesh it&rsquo;s defined to determine the zone where vehicles will be able to move on, from point A to point B, by adding the car spawner we can see the result, finally we add a simple detector to avoid collisions, but we still need to deal with them getting stuck at dead-ends.</p>
+<p>
+
+
+
+
+<video class="video-player" id="video-43" playsinline controls>
+  <source src="video2.mp4" type="video/mp4" />
+</video>
+ <!-- raw HTML omitted --></p>
+<h3 id="modularity">Modularity</h3>
+
+
+
+
+
+<video class="video-player" id="video-149" playsinline controls>
+  <source src="video3.mp4" type="video/mp4" />
+</video>
+
+<h2 id="reference">Reference</h2>
 <p><a href="https://github.com/JCasahuga/"><img src="../../github.svg"
     
     
@@ -392,9 +425,12 @@ if (!doNotTrack) {
     <li><a href="#the-project">The project</a></li>
     <li><a href="#how-it-works">How it works</a>
       <ul>
-        <li><a href="#reference">Reference</a></li>
+        <li><a href="#roads">Roads</a></li>
+        <li><a href="#navigation">Navigation</a></li>
+        <li><a href="#modularity">Modularity</a></li>
       </ul>
     </li>
+    <li><a href="#reference">Reference</a></li>
   </ul>
 </nav>
       </div>
