@@ -2,6 +2,8 @@
 
 var projectCards;
 var isMobile = false, isTablet = false, isLaptop = false;
+var client_type = Math.floor(Math.random() * 3);
+
 (function ($) {
   jQuery(document).ready(function () {
     function detectDevice() {
@@ -150,14 +152,6 @@ function toggleTOC() {
 
 // Show more rows in the taken courses table
 function toggleCourseVisibility(elem) {
-  // Google Analytics Test
-  /*console.log("Analytics Started");
-  window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({
-   'event': 'login',
-   });
-  console.log("Analytics Finished");*/
-
   // find the courses
   let courses = elem.parentNode.getElementsByClassName("course");
   if (courses == null) {
@@ -177,4 +171,20 @@ function toggleCourseVisibility(elem) {
   for (const buttonToToggle of buttonsToToggle) {
     buttonToToggle.classList.toggle("hidden");
   }
+}
+
+
+window.addEventListener('load', function() {
+  login();
+});
+
+function login () {
+  // Google Analytics Test
+  console.log("Analytics Started");
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+   'event': 'login',
+   'application': Math.floor(Math.random() * 2) == 0 ? 'web' : 'app'
+   });
+  console.log("Analytics Finished");
 }
