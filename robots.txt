@@ -1,0 +1,13 @@
+# Allow Google to crawl the app-ads.txt file
+User-agent: Google-adstxt
+Disallow:
+
+# Allow
+User-agent: Googlebot
+Disallow:
+
+User-agent: Bingbot
+Disallow:
+
+# Sitemap location
+Sitemap: https://jcasahuga.github.io/sitemap.xml
